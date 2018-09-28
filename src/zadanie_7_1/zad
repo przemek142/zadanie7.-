@@ -1,0 +1,18 @@
+Napisz program składający się z dwóch klas:
+
+-CalandarConverter, która będzie posiadała 7 stałych reprezentujących dni tygodnia w postaci liczbowej,
+czyli np. do MONDAY przypisana będzie po prostu 1 itd. W klasie tej zdefiniuj także statyczną metodę o sygnaturze:
+
+    -String convertDayToString(int dayNumber), która przyjmuje liczbę reprezentującą dzień tygodnia i
+     zwraca dzień tygodnia w postaci Stringa. Np. dla argumentu 1 powinna zwrócić „Poniedziałek”.
+    W metodzie wykorzystaj konstrukcję switch oraz wcześniej zdefiniowane stałe.
+
+-ConverterTest, klasa, w której zdefiniujesz pętlę for, która wykona się 7 razy. Licznik powinien
+ przyjąć w kolejnych iteracjach wartości 1, 2, 3, …, 7 (czyli tak jak dni tygodnia), w każdej iteracji
+  zamienisz wartość licznika na nazwę dnia tygodnia korzystając z metody convertDayToString() i wydrukujesz
+  na ekranie wynik postaci:
+
+1 dzień tygodnia to Poniedziałek
+2 dzień tygodnia to Wtorek
+…
+7 dzień tygodnia to Niedziela

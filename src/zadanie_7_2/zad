@@ -1,0 +1,9 @@
+Napisz program składający się z 3 klas:
+-Student – reprezentuje ucznia
+-Teacher – reprezentuje nauczyciela
+-School – utwórz w niej przynajmniej jednego nauczyciela i ucznia i wyświetl informacje o nich na ekranie
+
+Klasy Student i Teacher powinny posiadać przynajmniej po 3 pola, z których przynajmniej jedno powinno być
+takie samo (np. firstName). Powinny także posiadać co najmniej jedną metodę, np. show(), która wyświetla informacje o
+obiekcie. Zastanów się jak można te klasy połączyć relacją dziedziczenia – zdefiniuj dla nich dodatkową klasę bazową.
+Spróbuj wyeliminować w kodzie wszelkie powtarzalne fragmenty kodu wykorzystując dziedziczenie oraz instrukcję super.
