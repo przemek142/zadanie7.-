@@ -1,16 +1,18 @@
 package zadanie_7_1;
 
-public class CalandarConverter {
+ public class CalandarConverter {
+
+     final static int MONDAY = 1;
+     final static int TUESDAY = 2;
+     final static int WEDNESDAY = 3;
+     final static int THURSDAY = 4;
+     final static int FRIDAY = 5;
+     final static int SATURDAY = 6;
+     final static int SUNDAY = 7;
 
     public static String convertDayToString(int dayNumber) {
         String dayOfWeek;
-        final int MONDAY = 1;
-        final int TUESDAY = 2;
-        final int WEDNESDAY = 3;
-        final int THURSDAY = 4;
-        final int FRIDAY = 5;
-        final int SATURDAY = 6;
-        final int SUNDAY = 7;
+
 
         switch (dayNumber) {
             case MONDAY:
